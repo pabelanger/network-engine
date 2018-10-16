@@ -1,5 +1,6 @@
 - project:
     check:
       jobs:
+        - ansible-network-tox-py27
         - ansible-test-sanity:
             voting: False
